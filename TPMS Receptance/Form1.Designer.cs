@@ -88,10 +88,10 @@
             this.textBox_RLWarnSts = new System.Windows.Forms.TextBox();
             this.textBox_FRWarnSts = new System.Windows.Forms.TextBox();
             this.textBox_FLWarnSts = new System.Windows.Forms.TextBox();
-            this.textBox_RRPree = new System.Windows.Forms.TextBox();
-            this.textBox_RLPree = new System.Windows.Forms.TextBox();
-            this.textBox_FRPree = new System.Windows.Forms.TextBox();
-            this.textBox_FLPree = new System.Windows.Forms.TextBox();
+            this.textBox_RRPrs = new System.Windows.Forms.TextBox();
+            this.textBox_RLPrs = new System.Windows.Forms.TextBox();
+            this.textBox_FRPrs = new System.Windows.Forms.TextBox();
+            this.textBox_FLPrs = new System.Windows.Forms.TextBox();
             this.textBox_RRTemp = new System.Windows.Forms.TextBox();
             this.textBox_RLTemp = new System.Windows.Forms.TextBox();
             this.textBox_FRTemp = new System.Windows.Forms.TextBox();
@@ -647,10 +647,10 @@
             this.groupBox4.Controls.Add(this.textBox_RLWarnSts);
             this.groupBox4.Controls.Add(this.textBox_FRWarnSts);
             this.groupBox4.Controls.Add(this.textBox_FLWarnSts);
-            this.groupBox4.Controls.Add(this.textBox_RRPree);
-            this.groupBox4.Controls.Add(this.textBox_RLPree);
-            this.groupBox4.Controls.Add(this.textBox_FRPree);
-            this.groupBox4.Controls.Add(this.textBox_FLPree);
+            this.groupBox4.Controls.Add(this.textBox_RRPrs);
+            this.groupBox4.Controls.Add(this.textBox_RLPrs);
+            this.groupBox4.Controls.Add(this.textBox_FRPrs);
+            this.groupBox4.Controls.Add(this.textBox_FLPrs);
             this.groupBox4.Controls.Add(this.textBox_RRTemp);
             this.groupBox4.Controls.Add(this.textBox_RLTemp);
             this.groupBox4.Controls.Add(this.textBox_FRTemp);
@@ -738,37 +738,37 @@
             this.textBox_FLWarnSts.Size = new System.Drawing.Size(53, 21);
             this.textBox_FLWarnSts.TabIndex = 16;
             // 
-            // textBox_RRPree
+            // textBox_RRPrs
             // 
-            this.textBox_RRPree.Location = new System.Drawing.Point(411, 72);
-            this.textBox_RRPree.Name = "textBox_RRPree";
-            this.textBox_RRPree.ReadOnly = true;
-            this.textBox_RRPree.Size = new System.Drawing.Size(53, 21);
-            this.textBox_RRPree.TabIndex = 15;
+            this.textBox_RRPrs.Location = new System.Drawing.Point(411, 72);
+            this.textBox_RRPrs.Name = "textBox_RRPrs";
+            this.textBox_RRPrs.ReadOnly = true;
+            this.textBox_RRPrs.Size = new System.Drawing.Size(53, 21);
+            this.textBox_RRPrs.TabIndex = 15;
             // 
-            // textBox_RLPree
+            // textBox_RLPrs
             // 
-            this.textBox_RLPree.Location = new System.Drawing.Point(338, 72);
-            this.textBox_RLPree.Name = "textBox_RLPree";
-            this.textBox_RLPree.ReadOnly = true;
-            this.textBox_RLPree.Size = new System.Drawing.Size(53, 21);
-            this.textBox_RLPree.TabIndex = 14;
+            this.textBox_RLPrs.Location = new System.Drawing.Point(338, 72);
+            this.textBox_RLPrs.Name = "textBox_RLPrs";
+            this.textBox_RLPrs.ReadOnly = true;
+            this.textBox_RLPrs.Size = new System.Drawing.Size(53, 21);
+            this.textBox_RLPrs.TabIndex = 14;
             // 
             // textBox_FRPree
             // 
-            this.textBox_FRPree.Location = new System.Drawing.Point(266, 72);
-            this.textBox_FRPree.Name = "textBox_FRPree";
-            this.textBox_FRPree.ReadOnly = true;
-            this.textBox_FRPree.Size = new System.Drawing.Size(53, 21);
-            this.textBox_FRPree.TabIndex = 13;
+            this.textBox_FRPrs.Location = new System.Drawing.Point(266, 72);
+            this.textBox_FRPrs.Name = "textBox_FRPree";
+            this.textBox_FRPrs.ReadOnly = true;
+            this.textBox_FRPrs.Size = new System.Drawing.Size(53, 21);
+            this.textBox_FRPrs.TabIndex = 13;
             // 
-            // textBox_FLPree
+            // textBox_FLPrs
             // 
-            this.textBox_FLPree.Location = new System.Drawing.Point(194, 72);
-            this.textBox_FLPree.Name = "textBox_FLPree";
-            this.textBox_FLPree.ReadOnly = true;
-            this.textBox_FLPree.Size = new System.Drawing.Size(53, 21);
-            this.textBox_FLPree.TabIndex = 12;
+            this.textBox_FLPrs.Location = new System.Drawing.Point(194, 72);
+            this.textBox_FLPrs.Name = "textBox_FLPrs";
+            this.textBox_FLPrs.ReadOnly = true;
+            this.textBox_FLPrs.Size = new System.Drawing.Size(53, 21);
+            this.textBox_FLPrs.TabIndex = 12;
             // 
             // textBox_RRTemp
             // 
@@ -984,10 +984,10 @@
         private System.Windows.Forms.TextBox textBox_RLWarnSts;
         private System.Windows.Forms.TextBox textBox_FRWarnSts;
         private System.Windows.Forms.TextBox textBox_FLWarnSts;
-        private System.Windows.Forms.TextBox textBox_RRPree;
-        private System.Windows.Forms.TextBox textBox_RLPree;
-        private System.Windows.Forms.TextBox textBox_FRPree;
-        private System.Windows.Forms.TextBox textBox_FLPree;
+        private System.Windows.Forms.TextBox textBox_RRPrs;
+        private System.Windows.Forms.TextBox textBox_RLPrs;
+        private System.Windows.Forms.TextBox textBox_FRPrs;
+        private System.Windows.Forms.TextBox textBox_FLPrs;
         private System.Windows.Forms.TextBox textBox_RRTemp;
         private System.Windows.Forms.TextBox textBox_RLTemp;
         private System.Windows.Forms.TextBox textBox_FRTemp;
