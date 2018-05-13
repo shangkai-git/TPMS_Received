@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe.config
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.pdb
@@ -13,3 +14,20 @@ C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS_Rec
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.csproj.GenerateResource.Cache
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.exe
 C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.pdb
+=======
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe.config
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.pdb
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\canlibCLSNET.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\canTrans.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\can_driver.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\linlibCLSNET.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\MmTimer.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\bin\Debug\SecurityAccess.dll
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.csprojResolveAssemblyReference.cache
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS_Receptance.Form1.resources
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS_Receptance.Properties.Resources.resources
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.csproj.GenerateResource.Cache
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.exe
+D:\GitHub\TPMS-Received\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.pdb
+>>>>>>> a1bc3d7f155e5d53478567dd52e3f7879a4b87fd
