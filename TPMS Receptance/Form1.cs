@@ -141,6 +141,10 @@ namespace TPMS_Receptance
                 textBox_FRTemp.Clear();
                 textBox_RLTemp.Clear();
                 textBox_RRTemp.Clear();
+                textBox_FLPrs.Clear();
+                textBox_FRPrs.Clear();
+                textBox_RLPrs.Clear();
+                textBox_RRPrs.Clear();
                 textBox_FLWarnSts.Clear();
                 textBox_FRWarnSts.Clear();
                 textBox_RLWarnSts.Clear();
@@ -524,7 +528,9 @@ namespace TPMS_Receptance
                         EventHandler FL2 = delegate
                         {
                             textBox_FLTemp.Clear();
+                            textBox_FLPrs.Clear();
                             textBox_FLTemp.AppendText("---");
+                            textBox_FLPrs.AppendText("---");
                         };
                         try { Invoke(FL2); } catch { };
 
@@ -536,6 +542,7 @@ namespace TPMS_Receptance
                             EventHandler FL1 = delegate
                             {
                                 textBox_FLTemp.Text = (data[3] * 0.65 - 40).ToString();
+                                textBox_FLPrs.Text = (data[4] * 1.77).ToString();
                             };
                             try { Invoke(FL1); } catch { };
                         }
@@ -545,7 +552,9 @@ namespace TPMS_Receptance
                         EventHandler FL2 = delegate
                         {
                             textBox_FRTemp.Clear();
+                            textBox_FRPrs.Clear();
                             textBox_FRTemp.AppendText("---");
+                            textBox_FRPrs.AppendText("---");
                         };
                         try { Invoke(FL2); } catch { };
 
@@ -557,6 +566,7 @@ namespace TPMS_Receptance
                             EventHandler FL1 = delegate
                             {
                                 textBox_FRTemp.Text = (data[3] * 0.65 - 40).ToString();
+                                textBox_FRPrs.Text = (data[5] * 1.77).ToString();
                             };
                             try { Invoke(FL1); } catch { };
                         }
@@ -567,7 +577,9 @@ namespace TPMS_Receptance
                         EventHandler FL2 = delegate
                         {
                             textBox_RLTemp.Clear();
+                            textBox_RLPrs.Clear();
                             textBox_RLTemp.AppendText("---");
+                            textBox_RLPrs.AppendText("---");
                         };
                         try { Invoke(FL2); } catch { };
 
@@ -579,6 +591,7 @@ namespace TPMS_Receptance
                             EventHandler FL1 = delegate
                             {
                                 textBox_RLTemp.Text = (data[3] * 0.65 - 40).ToString();
+                                textBox_RLPrs.Text = (data[6] * 1.77).ToString();
                             };
                             try { Invoke(FL1); } catch { };
                         }
@@ -588,7 +601,9 @@ namespace TPMS_Receptance
                         EventHandler FL2 = delegate
                         {
                             textBox_RRTemp.Clear();
+                            textBox_RRPrs.Clear();
                             textBox_RRTemp.AppendText("---");
+                            textBox_RRPrs.AppendText("---");
                         };
                         try { Invoke(FL2); } catch { };
 
@@ -704,6 +719,7 @@ namespace TPMS_Receptance
                             {
                                 textBox_FLWarnSts.Clear();
                                 textBox_FLWarnSts.BackColor = System.Drawing.Color.FromArgb(255, 0, 0); 
+                                textBox_FLPrs.BackColor = System.Drawing.Color.FromArgb(255, 0, 0);  
                                 textBox_FLWarnSts.AppendText("High Pres");
                             };
                             try { Invoke(FL1); } catch { };
@@ -746,6 +762,7 @@ namespace TPMS_Receptance
                             {
                                 textBox_FRWarnSts.Clear();
                                 textBox_FRWarnSts.BackColor = System.Drawing.Color.FromArgb(255, 0, 0);  
+                                textBox_FRPrs.BackColor = System.Drawing.Color.FromArgb(255, 0, 0); 
                                 textBox_FRWarnSts.AppendText("Air Loss");
                             };
                             try { Invoke(FL1); } catch { };
@@ -756,7 +773,7 @@ namespace TPMS_Receptance
                             {
                                 textBox_FRWarnSts.Clear();
                                 textBox_FRWarnSts.BackColor = System.Drawing.Color.FromArgb(255, 0, 0); 
-                                textBox_FRPree.BackColor = System.Drawing.Color.FromArgb(255, 0, 0);  
+                                textBox_FRPrs.BackColor = System.Drawing.Color.FromArgb(255, 0, 0);  
                                 textBox_FRWarnSts.AppendText("Low Pre");
                             };
                             try { Invoke(FL1); } catch { };
@@ -767,6 +784,7 @@ namespace TPMS_Receptance
                             {
                                 textBox_FRWarnSts.Clear();
                                 textBox_FRWarnSts.BackColor = System.Drawing.Color.FromArgb(255, 0, 0);  
+                                textBox_FRPrs.BackColor = System.Drawing.Color.FromArgb(255, 0, 0); 
                                 textBox_FRWarnSts.AppendText("High Pre");
                             };
                             try { Invoke(FL1); } catch { };
