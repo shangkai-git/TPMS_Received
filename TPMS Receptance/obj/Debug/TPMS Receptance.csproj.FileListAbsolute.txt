@@ -1,0 +1,15 @@
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe.config
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.exe
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\TPMS Receptance.pdb
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\canlibCLSNET.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\canTrans.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\can_driver.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\linlibCLSNET.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\MmTimer.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\bin\Debug\SecurityAccess.dll
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.csprojResolveAssemblyReference.cache
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS_Receptance.Form1.resources
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS_Receptance.Properties.Resources.resources
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.csproj.GenerateResource.Cache
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.exe
+C:\Users\SHANG\Documents\GitHub\TPMS_Received\TPMS Receptance\obj\Debug\TPMS Receptance.pdb
